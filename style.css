@@ -1,0 +1,94 @@
+body {
+    background: radial-gradient(#99f8dd, #86ebeb);
+}
+
+.main {
+    background-color: #1dc8e2;
+    max-width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.display {
+    margin-top: 10px;
+    width: 360px;
+    background-color: #7400b8;
+    color: white;
+    height: 50px;
+    text-align: right;
+    font-size: 24px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 50px;
+
+
+}
+
+.table {
+    width: 380px;
+    margin: auto;
+}
+
+button {
+    margin: 3px;
+    width: 60px;
+    height: 40px;
+    background-color: #75d2ee;
+    color: #6930c3;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #5390d9;
+
+}
+
+#AC {
+    width: 160px
+}
+
+@media screen and (max-width: 500px) {
+    .main {
+
+        max-width: 200px;
+        height: 250px;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 30px;
+        padding: 10px;
+    }
+
+    .display {
+        margin-top: 10px;
+        width: 180px;
+        height: 30px;
+        font-size: 16px;
+        padding: 5px;
+        margin-bottom: 30px;
+
+
+    }
+
+    .table {
+        width: 200px;
+        margin: auto;
+    }
+
+    button {
+        margin: 3px;
+        width: 40px;
+        height: 20px;
+        font-size: 12px;
+    }
+
+    #AC {
+        width: 95px;
+    }
+
+}
